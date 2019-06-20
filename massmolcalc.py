@@ -56,12 +56,12 @@ if choice == '4':
         mass = f.mass
         grams = input("How many grams of " + str(f) + " do you have?")
         moles = (int(grams)/int(mass))
-        print(str(grams) + " grams of " + str(f) + " is roughly equal to " + str(moles) + "moles of " + str(f))
+        print(str(grams) + " grams of " + str(f) + " is roughly equal to " + str(moles) + " moles of " + str(f))
     elif option == '2':
         f = Formula(input("Enter the formula of your solution").upper())
         mass = f.mass
         moles = input("How many moles of " + str(f) + " do you have?")
         grams = (int(moles)*int(mass))
-        print(str(moles) + " moles of " + str(f) + " is roughly equal to " + str(grams) + "grams of " + str(f))
+        print(str(moles) + " moles of " + str(f) + " is roughly equal to " + str(grams) + " grams of " + str(f))
     else:
         exit()
